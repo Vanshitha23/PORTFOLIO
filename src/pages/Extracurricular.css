@@ -1,0 +1,61 @@
+.activities-container {
+    background-color: #f3f6fb;
+    min-height: 100vh;
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .activities-container h1 {
+    font-size: 2.5rem;
+    color: #1f2d3d;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+  }
+  
+  .activities-list {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .activity-card {
+    padding: 1.8rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+    color: #cacfd5;
+  }
+  
+  /* Alternating background colors */
+  .activity-card:nth-child(even) {
+    background-color: #123972; /* Light Orange */
+  }
+  
+  .activity-card:nth-child(odd) {
+    background-color: #123972; /* Light Blue */
+  }
+  
+  .activity-card:hover {
+    transform: translateY(-6px);
+  }
+  
+  .activity-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+  }
+  
+  .activity-description {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+  }
+  
+  .activity-date {
+    font-size: 0.9rem;
+    color: #f7f1f1;
+    font-style: italic;
+  }
+  

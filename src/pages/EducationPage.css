@@ -1,0 +1,111 @@
+/* EducationPage.css
+
+.education-page {
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .education-page h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #222;
+  }
+  
+  .education-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .education-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  .education-info {
+    flex: 1;
+  }
+  
+  .education-info h3 {
+    font-size: 1.8rem;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+  }
+  
+  .education-info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 0.5rem;
+  }
+   */
+
+   /* Enhanced EducationPage.css with timeline effect */
+
+.education-page {
+    padding: 3rem 2rem;
+    background-color: #f0f4f8;
+    position: relative;
+  }
+  
+  .education-page h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #1c1c1c;
+    position: relative;
+  }
+  
+  .education-timeline {
+    position: relative;
+    margin: 0 auto;
+    max-width: 800px;
+    padding-left: 30px;
+    border-left: 4px solid #4b6cb7;
+  }
+  
+  .education-container {
+    position: relative;
+    background-color: white;
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .education-container:hover {
+    transform: translateX(10px);
+  }
+  
+  .education-container::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: -38px;
+    width: 18px;
+    height: 18px;
+    background-color: #4b6cb7;
+    border: 3px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px #dce3f2;
+  }
+  
+  .education-info h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .education-info p {
+    font-size: 1.05rem;
+    color: #555;
+    margin: 0.2rem 0;
+  }
+  
